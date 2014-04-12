@@ -2,7 +2,7 @@ inc:
   # Blog Information
   title:        "TrustWalla"
   subtitle:     "Reputation in your wallet"
-  cover_image:  tunnel_sm.png
+  cover_image:  tunnel2.jpg
   logo:         super_quick_logo_sm.png
   
   # Company information
@@ -47,7 +47,7 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     []
+exclude:     ['Gemfile', 'Gemfile.lock', 'Rakefile']
 timezone:    nil
 
 # Show future posts
