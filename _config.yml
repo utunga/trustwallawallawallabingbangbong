@@ -41,13 +41,13 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://localhost:4000 #http://incorporated.sendtoinc.com
+url:         http://utunga.github.io/trustwallawallawallabingbangbong/ #http://incorporated.sendtoinc.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     ['Gemfile', 'Gemfile.lock', 'Rakefile']
+exclude:     ['Gemfile', 'Gemfile.lock', 'Rakefile'ge]
 timezone:    nil
 
 # Show future posts
@@ -112,7 +112,7 @@ redcloth:
 assets:
 
   dirname: assets
-  baseurl: /assets/
+  baseurl: /trustwallawallawallabingbangbong/assets/
   sources:
     - _assets/javascripts
     - _assets/stylesheets
