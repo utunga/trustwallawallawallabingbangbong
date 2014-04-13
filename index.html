@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
+<div class="blog-cover" style="background-image:url(/{{ site.baseurl }}images/{{ site.inc.cover_image }});">
     
     <section>
         <div class="container">
@@ -11,6 +11,7 @@ layout: base
             {% if site.inc.twitter %}
             <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
             {% endif %}
+
             {% if site.inc.facebook %}
             <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
             {% endif %}
@@ -55,39 +56,34 @@ layout: base
 
  <section class="index">
     <div>
-        <h2 class="title">How the escrow model works</h2>
-        <p></p>
+        <h2 class="title">How it works</h2>
+            
+            <h4 class="title">To Check a reputation</h4>
+             <ol>
+                <li>Enter the public trustwalla address of your counterparty <a href="#">here</a>
+                </li>
+                <li>View our report on that counterparty
+                {% image reputation_dribble.png %}
+                <p>
+                </p>
+                </li>
+            </ol>
+            <h4 class="title">To Make A Trade</h4>
+            <ol>
+                <li>Install our plugin to one of our supported existing desktop or mobile wallets.</br>
+            
+            {% image supported_wallets.jpg %}
+            <p>
+                Or run our standalone reporting tool.
+            </p>
+            </li>
+            <li>When you make a trade or a trade offer be sure to transfer funds through your public trustwalla address so as to </li>
+            <li><b>If something goes wrong in the trade:</b> Be protected according to the level of your wallet's reputation compared to your counterparty.</li>
+            <li><b>If everything goes smoothly:</b> Build the reputation of your wallet address with each successful trade.</li>
+            </ol>
+        </div>
     </div>
-    <hr>
+</div>
 </section>
 
-
-{% for post in paginator.posts %}
-  {% unless post.draft %}
-    <section class="index">
-        <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
-        <div>
-            <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
-            <p>{{ post.excerpt }}</p>
-            <div class="meta">
-                Written By <address>{{ post.author.name }}</address> &mdash;
-                <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
-            </div>
-        </div>
-        <hr>
-    </section>
-    {% endunless %}
-    {% endfor %}
-    <section class="pagination" style="text-align:center">
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <a href="/" class="btn btn-outline">‹ Newer</a>
-        {% else %}
-        <a href="/page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
-        {% endif %}
-      {% endif %}
-      {% if paginator.next_page %}
-        <a href="/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
-      {% endif %}
-    </section>
 </article>

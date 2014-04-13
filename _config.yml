@@ -6,9 +6,9 @@ inc:
   logo:         super_quick_logo_sm.png
   
   # Company information
-  company:      Trustwall
+  company:      Trustwalla
   url:          http://trustwalla.com/
-  facebook:     trustwalla
+  #facebook:     trustwalla
   twitter:      trustwalla
   gplus:        '108625746188823131832'
   about_link:   https://trustwalla.com/about/
@@ -41,13 +41,13 @@ inc:
   
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://utunga.github.io/trustwallawallawallabingbangbong/ #http://incorporated.sendtoinc.com
+url:         http://utunga.github.io/trustwallawallawallabingbangbong #http://incorporated.sendtoinc.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     ['Gemfile', 'Gemfile.lock', 'Rakefile'ge]
+exclude:     ['Gemfile', 'Gemfile.lock', 'Rakefile']
 timezone:    nil
 
 # Show future posts
@@ -59,7 +59,7 @@ pygments:    true
 relative_permalinks: true
 
 permalink:     pretty
-paginate_path: 'page:num'
+paginate_path: 'blog/page:num'
 paginate: 10
 
 markdown:      maruku
@@ -71,7 +71,7 @@ excerpt_separator: "<!-- more -->"
 safe:        false
 host:        0.0.0.0
 port:        4000
-baseurl:     /
+baseurl:     trustwallawallawallabingbangbong/
 lsi:         false
 
 maruku:
@@ -113,6 +113,7 @@ assets:
 
   dirname: assets
   baseurl: /trustwallawallawallabingbangbong/assets/
+  #baseurl: /assets/
   sources:
     - _assets/javascripts
     - _assets/stylesheets
