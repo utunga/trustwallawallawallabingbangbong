@@ -1,10 +1,10 @@
 inc:
   # Blog Information
   title:        "TrustWalla"
-  subtitle:     "Reputation in your wallet"
+  subtitle:     "Algorithm based solutions for the bitcoin market"
   cover_image:  tunnel2.jpg
   logo:         super_quick_logo_sm.png
-  
+
   # Company information
   company:      Trustwalla
   url:          http://trustwalla.com/
@@ -12,36 +12,36 @@ inc:
   twitter:      trustwalla
   gplus:        '108625746188823131832'
   about_link:   https://trustwalla.com/about/
-  
+
   # Product Information
   product_link: product.html #http://incorporated.sendtoinc.com/
-  tagline:      "Reputation in your wallet"
-  
+  tagline:      "Algorithm based solutions for the bitcoin market"
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  trustwalla
-  
+
   # Sharing settings
   sharing:
     twitter:    false
     facebook:   false
     gplus:      false
     hn:         false
-    
-  
+
+
  # Analytics     
   analytics:
     google: false # Add tracking code in _includes/_google-analytics.html
-      
-      
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://utunga.github.io/trustwallawallawallabingbangbong #http://incorporated.sendtoinc.com
+url:         http://utunga.github.io/trustwallawebsite #http://incorporated.sendtoinc.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -71,7 +71,7 @@ excerpt_separator: "<!-- more -->"
 safe:        false
 host:        0.0.0.0
 port:        4000
-baseurl:     trustwallawallawallabingbangbong/
+baseurl:     trustwallawallawebsite/
 lsi:         false
 
 maruku:
@@ -106,21 +106,21 @@ kramdown:
 redcloth:
   hard_breaks: true
 
-#
+# Disabled because gh-pages 
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #
-assets:
+# assets:
 
-  dirname: assets
-  baseurl: /trustwallawallawallabingbangbong/assets/
-  #baseurl: /assets/
-  sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: none
-  cache: false
-  gzip: [ text/css, application/javascript ]
-  debug: false
+#   dirname: assets
+#   baseurl: /trustwallawebsite/assets/
+#   #baseurl: /assets/
+#   sources:
+#     - _assets/javascripts
+#     - _assets/stylesheets
+#     - _assets/images
+#   js_compressor: uglifier
+#   css_compressor: sass
+#   cachebust: none
+#   cache: false
+#   gzip: [ text/css, application/javascript ]
+#   debug: false
