@@ -2,7 +2,7 @@
 layout: base
 cover_image: mountain.jpg
 ---
-<div class="blog-cover" style="background-image:url(/{{ site.baseurl }}images/{{ page.cover_image }});">
+<div class="blog-cover" style="background-image:url({{ site.baseurl }}/images/{{ page.cover_image }});">
     
     <section>
         <div class="container">
@@ -29,9 +29,9 @@ cover_image: mountain.jpg
 {% for post in paginator.posts %}
   {% unless post.draft %}
     <section class="index">
-        <!-- {% if post.author.image %}<img src="/{{ site.baseurl }}images/{{ post.author.image }}" class="avatar">{% endif %}-->
+        <!-- {% if post.author.image %}<img src="{{ site.baseurl }}/images/{{ post.author.image }}" class="avatar">{% endif %}-->
         <div>
-            <h2 class="title"><a href="/{{ site.baseurl }}{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
+            <h2 class="title"><a href="{{ site.baseurl }}/{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
             <p>{{ post.excerpt }}</p>
             <div class="meta">
                 Written By <address>{{ post.author.name }}</address> &mdash;
@@ -45,13 +45,13 @@ cover_image: mountain.jpg
     <section class="pagination" style="text-align:center">
       {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-        <a href="/{{ site.baseurl}}" class="btn btn-outline">‹ Newer</a>
+        <a href="{{ site.baseurl}}/" class="btn btn-outline">‹ Newer</a>
         {% else %}
-        <a href="/{{ site.baseurl}}page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
+        <a href="{{ site.baseurl}}/page{{ paginator.previous_page }}" class="btn btn-outline">‹ Newer</a>
         {% endif %}
       {% endif %}
       {% if paginator.next_page %}
-        <a href="/{{ site.baseurl}}page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
+        <a href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="btn btn-outline">Older ›</a>
       {% endif %}
     </section>
 </article>
