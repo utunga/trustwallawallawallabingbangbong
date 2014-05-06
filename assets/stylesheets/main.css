@@ -1,3 +1,8 @@
+/* In order to get this to work on gh-pages just manually 
+   regenerating css from scss thusly
+   utunga at Miles-Macbook in ~/dev/trustwalla/web on master*
+   $ sass assets/stylesheets/main.scss  > assets/stylesheets/main.css 
+*/
 /* CONFIGURATION */
 /* Bodytext font */
 /* Font for headings */
@@ -41,7 +46,7 @@ a {
 
 .article-cover, .blog-cover {
   max-width: 100%;
-  margin-top: 0;
+  margin-top: 1.4em;
   position: relative;
   max-height: 460px;
   overflow: hidden;
@@ -69,7 +74,8 @@ a {
     margin-right: 30px; }
 
 .blog-cover {
-  height: 320px;
+  height: 460px;
+  margin-top: 30px;
   background-color: #111;
   background-size: cover;
   background-position: center center;
@@ -220,7 +226,7 @@ a {
   left: 0;
   right: 0;
   top: 0;
-  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+  /* box-shadow:0 0 1px 1px rgba(0,0,0,0.1); */
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   transition: all 0.35s ease;
@@ -757,7 +763,8 @@ article.front_page {
       font-size: 0.9em; }
 
   .blog-cover {
-    height: 200px; }
+    height: 200px;
+    margin-top: 4px; }
     .blog-cover img {
       height: 200px;
       width: auto; }

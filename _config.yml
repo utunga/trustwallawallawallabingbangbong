@@ -1,7 +1,15 @@
 inc:
   # Blog Information
   title:        "TrustWalla"
-  subtitle:     "Algorithm based solutions for the bitcoin market"
+  # Appears under title on home page
+  subtitle:      "Algorithm based solutions for the bitcoin market"
+  # Appears at very top right - call to action
+  # Leave these blank to remove from the page
+  calltoaction:                  "Stay informed"
+  calltoaction_button_text:      "Find out more"
+  # where the link would take you..
+  product_link: product.html #http://incorporated.sendtoinc.com/
+
   cover_image:  tunnel2.jpg
   logo:         super_quick_logo_sm.png
 
@@ -14,9 +22,7 @@ inc:
   about_link:   https://trustwalla.com/about/
 
   # Product Information
-  product_link: product.html #http://incorporated.sendtoinc.com/
-  tagline:      "Algorithm based solutions for the bitcoin market"
-
+  
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments

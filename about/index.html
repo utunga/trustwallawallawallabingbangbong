@@ -8,12 +8,9 @@ cover_image: nyc.jpg
         <div class="container">
             <h1>{{ site.inc.title }}</h1>
             {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
-        
-            
         </div>
     </section>
 </div>
-
 
 <article class="front_page">
 
@@ -25,25 +22,11 @@ cover_image: nyc.jpg
 
 <section class="index">
  <div class="row">
-     <div class="col col-xs-6">
-        
-        <h2 class="title">John Albanese</h2>
-        <h4>Experienced Risk Analyst</h4>
-        <ul>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-        </ul>
+     <div class="col col-m-6">
+        {% include john.html %}
     </div>
-    <div class="col col-xs-6">
-        
-        <h2 class="title">Miles Thompson</h2>
-        <h4>Financial Technologist</h4>
-        <ul>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-        </ul>
+    <div class="col col-m-6">
+        {% include miles.html %}
     </div>
 </div>
 </section>

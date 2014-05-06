@@ -3,8 +3,10 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} &mdash; {{ site.inc.title }}{% else %}{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}{% endif %}</title>
+    <title>{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}</title>
+    
     {% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
+
     <link rel="stylesheet" href="{{site.baseurl }}/assets/stylesheets/full_bootstrap.css">
     <link rel="stylesheet" href="{{site.baseurl }}/assets/stylesheets/main.css">
 
@@ -39,12 +41,14 @@
                 <img src="{{ site.url }}/images/{{ site.inc.logo }}" alt="Inc">
             </a>
             <a href="{{site.baseurl }}/" class="home">Home</a>
+            <a href="{{site.baseurl }}/careers" class="home">Careers</a>
+            <a href="{{site.baseurl }}/investor" class="home">Investor Relations</a>
             <a href="{{site.baseurl }}/blog" class="home">Blog</a>
-            <a href="{{site.baseurl }}/about" class="home">About Us</a>
+            <a href="{{site.baseurl }}/about" class="home">Our Team</a>
         </nav>
-        {% if site.inc.tagline or site.inc.product_url %}<nav class="tagline">
-            {% if site.inc.tagline %}<span>{{ site.inc.tagline }}</span>{% endif %}
-            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}" class="btn btn-outline">Get Started</a>{% endif %}
+        {% if site.inc.calltoaction or site.inc.product_url %}<nav class="tagline">
+            {% if site.inc.calltoaction %}<span>{{ site.inc.calltoaction }}</span>{% endif %}
+            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}" class="btn btn-outline">{{ site.inc.calltoaction_button_text }}</a>{% endif %}
         </nav>{% endif %}
     </header>
 </section>
