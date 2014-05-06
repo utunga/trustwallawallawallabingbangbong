@@ -7,16 +7,15 @@ inc:
   # Leave these blank to remove from the page
   calltoaction:                  "Stay informed"
   calltoaction_button_text:      "Find out more"
-  # where the link would take you..
+  # where the call to action link would take you..
   product_link: product.html #http://incorporated.sendtoinc.com/
-
-  cover_image:  tunnel2.jpg
+  #logo for top left
   logo:         super_quick_logo_sm.png
 
   # Company information
   company:      Trustwalla
   url:          http://trustwalla.com/
-  #facebook:     trustwalla
+  facebook:     trustwalla
   twitter:      trustwalla
   gplus:        '108625746188823131832'
   about_link:   https://trustwalla.com/about/
@@ -30,9 +29,9 @@ inc:
 
   # Sharing settings
   sharing:
-    twitter:    false
-    facebook:   false
-    gplus:      false
+    twitter:    true
+    facebook:   true
+    gplus:      true
     hn:         false
 
 
@@ -47,7 +46,7 @@ inc:
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://utunga.github.io/trustwallawebsite #http://incorporated.sendtoinc.com
+url:         http://www.trustwalla.com #http://incorporated.sendtoinc.com
 source:      .
 destination: ./_site
 plugins:     ./_plugins
@@ -77,7 +76,8 @@ excerpt_separator: "<!-- more -->"
 safe:        false
 host:        0.0.0.0
 port:        4000
-baseurl:     /trustwallawebsite
+#crazy important variable, which needs to be set to ""
+baseurl:     
 lsi:         false
 
 # maruku:

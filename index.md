@@ -1,6 +1,7 @@
 ---
 layout: index
 tagline: Trustwalla provides reputation management for the bitcoin marketplace.
+cover_image:  tunnel2.jpg
 ---
 
 ## Risk Management
