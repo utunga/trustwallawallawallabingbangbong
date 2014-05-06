@@ -5,8 +5,8 @@ inc:
   subtitle:      "Algorithm based solutions for the bitcoin market"
   # Appears at very top right - call to action
   # Leave these blank to remove from the page
-  calltoaction:                  "Stay informed"
-  calltoaction_button_text:      "Find out more"
+  calltoaction: #                 "Stay informed"
+  calltoaction_button_text: #     "Find out more"
   # where the call to action link would take you..
   product_link: product.html #http://incorporated.sendtoinc.com/
   #logo for top left
