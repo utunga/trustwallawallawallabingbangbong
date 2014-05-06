@@ -1,7 +1,8 @@
 ---
 layout: index
 tagline: Trustwalla provides reputation management for the bitcoin marketplace.
-cover_image:  tunnel2.jpg
+cover_image: tunnel2.jpg
+published: true
 ---
 
 ## Risk Management
@@ -10,4 +11,4 @@ Just a couple of very generic statements about risk management and advanced algo
 
 ## Advanced Algorithms
 
-Just a couple of very generic statements about risk management and advanced algorithms.  An 'investor relations' tab and a 'careers' tab and a 'contact us' tab.   
+Just a couple of generic statements about risk management and advanced algorithms.  An 'investor relations' tab and a 'careers' tab and a 'contact us' tab.
