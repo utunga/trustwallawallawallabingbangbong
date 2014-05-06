@@ -1,0 +1,89 @@
+---
+layout: base
+---
+<div class="blog-cover" style="background-image:url({{ site.baseurl }}/images/{{ site.inc.cover_image }});">
+    
+    <section>
+        <div class="container">
+            <h1>{{ site.inc.title }}</h1>
+            {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
+        
+            {% if site.inc.twitter %}
+            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
+            {% endif %}
+
+            {% if site.inc.facebook %}
+            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
+            {% endif %}
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss"></i>
+            </a>
+        </div>
+    </section>
+</div>
+
+
+<article class="front_page">
+
+ <section class="index">
+    <blockquote>
+        <p>Trustwalla provide reputation management for the bitcoin marketplace.</p>
+    </blockquote>
+</section>
+
+<section class="index">
+ <div class="row">
+    <div class="col col-xs-6">
+        
+        <h2 class="title">Buyers</h2>
+        <ul>
+            <li>Check reputation of a seller before you buy.</li>
+            <li>Use with your own wallet.</li>
+            <li>Build your own reputation as a trusted counterparty</li>
+        </ul>
+    </div>
+     <div class="col col-xs-6">
+        
+        <h2 class="title">Sellers</h2>
+        <ul>
+            <li>Manage your business with our bitcoin shop.</li>
+            <li>Keep your bitcoins offline</li>
+            <li>Build your reputation in the bitcoin marketplace.</li>
+        </ul>
+    </div>
+</div>
+</section>
+
+ <section class="index">
+    <div>
+        <h2 class="title">How it works</h2>
+            
+            <h4 class="title">To Check a reputation</h4>
+             <ol>
+                <li>Enter the public trustwalla address of your counterparty <a href="#">here</a>
+                </li>
+                <li>View our report on that counterparty
+                <img src="/assets/images/reputation_dribble.png">
+                <p>
+                </p>
+                </li>
+            </ol>
+            <h4 class="title">To Make A Trade</h4>
+            <ol>
+                <li>Install our plugin to one of our supported existing desktop or mobile wallets.</br>
+            
+           <img src="/assets/images/supported_wallets.jpg">
+            <p>
+                Or run our standalone reporting tool.
+            </p>
+            </li>
+            <li>When you make a trade or a trade offer be sure to transfer funds through your public trustwalla address so as to </li>
+            <li><b>If something goes wrong in the trade:</b> Be protected according to the level of your wallet's reputation compared to your counterparty.</li>
+            <li><b>If everything goes smoothly:</b> Build the reputation of your wallet address with each successful trade.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+</section>
+
+</article>
