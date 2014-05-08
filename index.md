@@ -11,4 +11,4 @@ Strong claims are made about the "trust no-one" currency model of bitcoin. Certa
 
 ## Advanced Algorithmic Analysis
 
-Our models, refined by years of experience in working with real world risk management provide customers and vendors alike with powrful  ways to measure and protect againct counterparty risks, and because risk's must be assessed and adapted to in almost real time, only a 
+Our models, refined by years of experience in working with real world risk management provide customers and vendors alike with powrful  ways to measure and protect againct counterparty risks, and because risk's must be assessed and adapted to in almost real time.
