@@ -15,7 +15,9 @@ published: true
 
 ## Mission Statement
 
+
 ### How do Bitcoins differ from traditional fiat-based markets?
+
 
 Whether for better or for worse, the traditional markets are much more complex and are heavily regulated by 3rd party interests.    There are complex laws built around international trade treaties and domestic tax laws.   There are the legal systems which monitor for fraud and offer the public some legal protections through criminal prosecution.  The legal system also offers remediation through civil lawsuits and 3rd party arbitration.   In the US, savings accounts are insured by the FDIC.   Additionally, 3rd party interests monitor the exchange of goods and services, and remediate disputes, such as charge-backs through PayPal and vendor-ratings systems on eBay and money-back-guarantees through Amazon.com.  There are credit ratings for private citizens and corporations and nation-states.  There are banks and credit unions and pawn shops and money markets and futures markets and currency exchanges and collateralized loans and credit swap derivatives and public vs. private financing paradigms that have evolved literally over centuries.
 
