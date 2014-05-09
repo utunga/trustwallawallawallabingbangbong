@@ -1,16 +1,28 @@
 ---
 layout: post
-title: Test of prose editor
+title: Mission Statement
 subtitle: is it true I can edit from promise
 cover_image: mountain.jpg
 excerpt: Trustwalla is a way to build your reputation in the bitcoin marketplace.
 author: 
-  name: Miles
-  twitter: utunga
+  name: John Albanese
+  twitter: TrustWalla
   gplus: 108625746188823130000
-  bio: "Co-founder, Technology"
-  image: miles.png
+  bio: CEO
+  image: null
 published: true
 ---
 
-### Stay tuned for updates.
+## Mission Statement
+
+### How do Bitcoins differ from traditional fiat-based markets?
+
+Whether for better or for worse, the traditional markets are much more complex and are heavily regulated by 3rd party interests.    There are complex laws built around international trade treaties and domestic tax laws.   There are the legal systems which monitor for fraud and offer the public some legal protections through criminal prosecution.  The legal system also offers remediation through civil lawsuits and 3rd party arbitration.   In the US, savings accounts are insured by the FDIC.   Additionally, 3rd party interests monitor the exchange of goods and services, and remediate disputes, such as charge-backs through PayPal and vendor-ratings systems on eBay and money-back-guarantees through Amazon.com.  There are credit ratings for private citizens and corporations and nation-states.  There are banks and credit unions and pawn shops and money markets and futures markets and currency exchanges and collateralized loans and credit swap derivatives and public vs. private financing paradigms that have evolved literally over centuries.
+
+Bitcoin, on the other hand, is a reboot of the centuries-old idea that individuals should be free to exchange goods and services without any 3rd party interference or authority.  It is a private currency whose value is defined only by the public’s desire to possess it.  It is unregulated.  And as such lacks any of the infrastructure or protections of the traditional markets.  The mechanics of HOW to trade Bitcoins has not yet been invented.  Without 3rd party interests remediating disputes, just how do we trust one another enough to ship our goods, or provide our services, once our bitcoins have moved from one wallet to another?  Without anti-fraud laws or criminal penalties, how does the market protect itself from those who would seek to acquire bitcoins thru deceptive means?   How does a truly anonymous market, free of regulation and interference, protect itself from malicious intention?
+We have seen already the undermining of confidence in Bitcoin as a result of greed and malicious intent.     And what was originally conceived as a decentralized currency free of 3rd party regulations has been experiencing reverse-entropy, gravitating towards centralized escrow services and trading exchanges that use a ‘promise to pay’ business model that remains uncollateralized and risky .  
+TrustWalla is a virtual peer-to-peer network with integrated escrow capability.  Based upon risk-assessment algorithms that track and evaluate the transaction history reflected in the blockchain data that is unique to each wallet, user ratings can be calculated and utilized to model escrow ‘terms and conditions’ that appropriately reflect risk.
+
+-           > It’s very similar to what traditional markets use to measure the credit worthiness of consumers.   Similar to a credit rating, TrustWalla measures various transactional-based variables associated with each wallet – while maintaining complete anonymity for both parties involved.  – John Albanese
+
+TrustWalla seeks to mitigate this risk allowing for decentralized 2-party escrow accounts.  TrustWalla is a virtual peer-to-peer network of anonymous bitcoin wallets with integrated identity distribution / reputation rating escrow capability.  Based upon risk-assessment algorithms that track and evaluate the transaction history reflected in the blockchain data that is unique to each wallet’s escrow accounts, user ratings can be calculated and utilized to model escrow ‘terms and conditions’ that appropriately reflect risk.
