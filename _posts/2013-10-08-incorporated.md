@@ -23,7 +23,6 @@ We have seen already the undermining of confidence in Bitcoin as a result of gre
 TrustWalla is a virtual peer-to-peer network with integrated escrow capability.  Based upon risk-assessment algorithms that track and evaluate the transaction history reflected in the blockchain data that is unique to each wallet, user ratings can be calculated and utilized to model escrow ‘terms and conditions’ that appropriately reflect risk.
 
 > It’s very similar to what traditional markets use to measure the credit worthiness of consumers.   Similar to a credit rating, TrustWalla measures various transactional-based variables associated with each wallet – while maintaining complete anonymity for both parties involved.
-
-> -- <cite>John Albanese</cite>
+-- <cite>John Albanese</cite>
 
 TrustWalla seeks to mitigate this risk allowing for decentralized 2-party escrow accounts.  TrustWalla is a virtual peer-to-peer network of anonymous bitcoin wallets with integrated identity distribution / reputation rating escrow capability.  Based upon risk-assessment algorithms that track and evaluate the transaction history reflected in the blockchain data that is unique to each wallet’s escrow accounts, user ratings can be calculated and utilized to model escrow ‘terms and conditions’ that appropriately reflect risk.
