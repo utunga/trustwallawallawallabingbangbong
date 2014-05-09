@@ -1,14 +1,13 @@
 ---
 layout: index
-tagline: Trustwalla provides reputation management for the bitcoin marketplace.
+tagline: A Decentralized Distributed Identity / Reputation Scoring P2P Network
 cover_image: tunnel2.jpg
 published: true
 ---
 
 #### Risk Management
 
-Strong claims are made about the "trust no-one" currency model of bitcoin. Certainly, strong crypto and the distributed block chain allow for exciting possibilties in this direction. However real life is rarely as straightforward as the math books might suggest. Doing actual business in bitcoin means dealing with many different forms of counterparty risk as well as other risks. Our tools can help you manage this 
+Much has been said about the "trust no-one" currency model of bitcoin. TrustWalla understands that while strong cryptography and the distributed block chain allow for exciting possibilties in this area, real life is rarely as straightforward as the mathematics alone might suggest. Doing actual business in bitcoin means dealing with many different forms of counterparty risk. TrustWalla is committed to the idea that community-based solutions exist.
 
-#### Advanced Algorithmic Analysis
 
-Our models, refined by years of experience in working with real world risk management provide customers and vendors alike with powrful  ways to measure and protect againct counterparty risks, and because risk's must be assessed and adapted to in almost real time.
+
