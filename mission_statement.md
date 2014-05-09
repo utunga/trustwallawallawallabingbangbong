@@ -1,5 +1,8 @@
 ---
 published: false
+layout: static
+cover_image: mountain_bottom.jpg
+subtitle: Come join us
 ---
 
 ## Mission Statement
