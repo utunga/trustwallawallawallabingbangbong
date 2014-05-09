@@ -22,7 +22,8 @@ Bitcoin, on the other hand, is a reboot of the centuries-old idea that individua
 We have seen already the undermining of confidence in Bitcoin as a result of greed and malicious intent.     And what was originally conceived as a decentralized currency free of 3rd party regulations has been experiencing reverse-entropy, gravitating towards centralized escrow services and trading exchanges that use a ‘promise to pay’ business model that remains uncollateralized and risky .  
 TrustWalla is a virtual peer-to-peer network with integrated escrow capability.  Based upon risk-assessment algorithms that track and evaluate the transaction history reflected in the blockchain data that is unique to each wallet, user ratings can be calculated and utilized to model escrow ‘terms and conditions’ that appropriately reflect risk.
 
-> It’s very similar to what traditional markets use to measure the credit worthiness of consumers.   Similar to a credit rating, TrustWalla measures various transactional-based variables associated with each wallet – while maintaining complete anonymity for both parties involved.  >
-> -– <cite>John Albanese</cite>
+> It’s very similar to what traditional markets use to measure the credit worthiness of consumers.   Similar to a credit rating, TrustWalla measures various transactional-based variables associated with each wallet – while maintaining complete anonymity for both parties involved.
+
+> -- <cite>John Albanese</cite>
 
 TrustWalla seeks to mitigate this risk allowing for decentralized 2-party escrow accounts.  TrustWalla is a virtual peer-to-peer network of anonymous bitcoin wallets with integrated identity distribution / reputation rating escrow capability.  Based upon risk-assessment algorithms that track and evaluate the transaction history reflected in the blockchain data that is unique to each wallet’s escrow accounts, user ratings can be calculated and utilized to model escrow ‘terms and conditions’ that appropriately reflect risk.
