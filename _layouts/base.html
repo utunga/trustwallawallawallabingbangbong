@@ -31,21 +31,36 @@
     <meta name="description" content="{{ page.excerpt }}"/>
     {% endif %}
     <meta property="og:site_name" content="{{ site.inc.title }}">     
+ 
 </head>
 <body>
-    
 <section class="site-nav">
     <header>
+
+        <button id="nav-toggle">Menu</button>
+        
         <nav id="navigation">
-            <a class="brand" href="{{ site.url }}">
+           <a class="brand" href="{{ site.url }}">
                 <img src="{{ site.url }}/images/{{ site.inc.logo }}" alt="Inc">
             </a>
+            
             <a href="{{site.baseurl }}/" class="home">Home</a>
-            <a href="{{site.baseurl }}/careers" class="home">Careers</a>
-            <a href="{{site.baseurl }}/investor" class="home">Investor Relations</a>
+            <a href="{{site.baseurl }}/2013/10/08/mission/" class="home">Mission Statement</a>
             <a href="{{site.baseurl }}/blog" class="home">Blog</a>
             <a href="{{site.baseurl }}/about" class="home">Our Team</a>
         </nav>
+
+        
+        <div id="nav">
+            <ul> 
+                <li><a href="{{site.baseurl }}/" class="home">Home</a></li>
+                <li><a href="{{site.baseurl }}/2013/10/08/mission/" class="home">Mission Statement</a></li>
+                <li><a href="{{site.baseurl }}/blog" class="home">Blog</a></li>
+                <li><a href="{{site.baseurl }}/about" class="home">Our Team</a></li>
+            </ul>
+        </div>
+
+        
         {% if site.inc.calltoaction or site.inc.product_url %}<nav class="tagline">
             {% if site.inc.calltoaction %}<span>{{ site.inc.calltoaction }}</span>{% endif %}
             {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}" class="btn btn-outline">{{ site.inc.calltoaction_button_text }}</a>{% endif %}
@@ -62,8 +77,10 @@
         <nav>
             <a href="{{ site.inc.url }}/">{{ site.inc.company }}</a> &middot;
             <a href="{{site.baseurl }}/blog">Blog</a>&middot;
-            <a href="{{site.baseurl }}/about">About Us</a>
 
+            <a href="{{site.baseurl }}/careers" class="home">Careers</a>&middot;
+            <a href="{{site.baseurl }}/investor" class="home">Investor Relations</a>&middot; 
+            <a href="{{site.baseurl }}/about">About Us</a>      
         </nav>
         
         <nav class="social">

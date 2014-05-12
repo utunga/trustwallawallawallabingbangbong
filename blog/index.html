@@ -2,8 +2,10 @@
 layout: base
 cover_image: mountain.jpg
 ---
-<div class="blog-cover" style="background-image:url({{ site.baseurl }}/images/{{ page.cover_image }});">
-    
+<div class="blog-cover">
+    <div>
+        <img src="{{ site.baseurl }}/images/{{ page.cover_image }}" class="image">
+    </div>
     <section>
         <div class="container">
             <h1>{{ site.inc.title }}</h1>

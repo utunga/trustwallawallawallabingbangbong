@@ -2,8 +2,10 @@
 layout: base
 cover_image: nyc.jpg
 ---
-<div class="blog-cover" style="background-image:url({{ site.baseurl }}/images/{{ page.cover_image }});">
-    
+<div class="blog-cover">
+     <div>
+        <img src="{{ site.baseurl }}/images/{{ page.cover_image }}" class="image">
+    </div>
     <section>
         <div class="container">
             <h1>{{ site.inc.title }}</h1>
@@ -21,14 +23,14 @@ cover_image: nyc.jpg
 </section>
 
 <section class="index">
- <div class="row">
-     <div class="col col-m-6">
-        {% include john.html %}
+    <div class="row">
+        <div class="col col-m-6">
+            {% include john.html %}
+        </div>
+        <div class="col col-m-6">
+            {% include miles.html %}
+        </div>
     </div>
-    <div class="col col-m-6">
-        {% include miles.html %}
-    </div>
-</div>
 </section>
 
 </article>

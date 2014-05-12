@@ -15,8 +15,11 @@
 
 }
 
-@media (max-width: 720px) {
-    
+@media (max-width: 750px) {
+    body {
+        padding-top:10px;
+    }
+
     article {
         padding-top:30px;
         
@@ -46,15 +49,22 @@
         }
         
         h1 {
-            font-size:1.8em;
-        }
-        
-        h2 {
             font-size:1.4em;
         }
         
-        p {
+        h2 {
+            font-size:1.2em;
+        }
+        h3 {
             font-size:0.9em;
+        }
+
+        h4 {
+            font-size:.8em;
+        }
+
+        p {
+            font-size:0.8em;
         }
     }
     
@@ -63,12 +73,12 @@
         margin-top: 4px;
     
         img {
-            height:200px;
+            height:180px;
             width:auto;
         }
         
         section {
-            padding:60px 0 0;
+            padding: 40px 0 0;
             text-align:center;
             
             a {
@@ -76,7 +86,7 @@
             }
         }
         h1 {
-            font-size:1.5em;
+            font-size:1.2em;
         }
         
         h3 {
@@ -125,3 +135,5 @@
         }
     }
 }
+
+
