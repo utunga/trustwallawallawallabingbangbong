@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Test Post 
+title: Updated Title
 cover_image: mountain.jpg
 excerpt: Test excerpt
 published: true
 ---
 
-# Hi mum
+This is not a title 
