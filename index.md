@@ -7,7 +7,4 @@ published: true
 
 #### Risk Management
 
-Much has been said about the "trust no-one" currency model of bitcoin. TrustWalla understands that while strong cryptography and the distributed block chain allow for exciting possibilties in this area, real life is rarely as straightforward as the mathematics alone might suggest. Doing actual business in bitcoin means dealing with many different forms of counterparty risk. TrustWalla is committed to the idea that community-based solutions exist.
-
-
-
+Much has been said about the "trust no-one" currency model of bitcoin. TrustWalla understands that while strong cryptography and the distributed block chain allow for exciting possibilties in this area, real life is rarely as straightforward as the mathematics alone might suggest. Doing actual business in bitcoin means dealing with many different forms of counterparty risk. TrustWalla is committed to the idea that community-based solutions are the solution to this problem.
